@@ -1,0 +1,24 @@
+{
+  "name": "csv_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "async": "^2.5.0",
+    "csvtojson": "^1.1.7",
+    "extract-zip": "^1.6.5",
+    "fs-extra": "^4.0.2",
+    "moment": "^2.18.1"
+  }
+}
